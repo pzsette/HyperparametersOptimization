@@ -74,7 +74,7 @@ if __name__ == '__main__':
     alg = rbfopt.RbfoptAlgorithm(settings, bb)
     val, x, itercount, evalcount, fast_evalcount = alg.optimize()
 
-    print("\nRESUME TRAINING fashion-MINST DATASET:")
+    print("\nRESUME TRAINING FASHION-MNIST DATASET:")
     print("      Learningr Rate        Decay            Test loss       Test accuracy")
     for i in range(num_evaluations + 3):
         print([str(lr_history[i]) + ', ' + str(d_history[i]) + ', ' + str(test_loss_history[i]) + ', ' + str(test_accuracy_history[i])])
