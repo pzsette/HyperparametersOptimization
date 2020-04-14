@@ -1,11 +1,11 @@
 # HyperparametersOptimization
-Simple implementation of RBFopt library for hyperparameters tuning in neural network
+Simple implementation of RBFopt library for hyperparameters tuning in neural network.
 
 ## System requirements
 
 - [Python3](https://www.python.org/download/releases/3.0/)
 
-- [Bonmin, Ipopt](https://ampl.com/dl/open/). Extract binaries and add extracted folder path to your ```$PATH``` enviroment variable
+- [Bonmin, Ipopt](https://ampl.com/dl/open/). Extract binaries and add extracted folder path to your ```$PATH``` enviroment. variable.
 
 - [Tensorflow](https://www.tensorflow.org) 2.0 or highr
 
